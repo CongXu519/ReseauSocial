@@ -1,53 +1,15 @@
 # Réseau Social
-Ce projet de j2ee est basé sur Spring Boot et thymeleaf.
+Le but de ce projet est de réaliser un petit réseau social dans une entreprise, des gens dans ce réseau social peuvent créer et modifier ses profils, peuvent dire aux autres, et peuvent partager des documents avec d'autres.
 
-# Marche à suivre
-
-Lancement des différents service (chaque service se lance d'en un terminal distinct) :
-
-### Authentification
-
+# Technologies utilisées
 ```
-cd authentification
-mvn spring-boot:run
+Back-end: SpringFramework, Maven
 ```
 
-### Document
-
 ```
-cd document-service
-mvn spring-boot:run
+Front-end: Html, CSS, JS, Thymeleaf
 ```
+# Demo
+A créer
 
-### Message
-
-```
-cd message-service
-mvn spring-boot:run
-```
-
-### UserProfil
-
-```
-cd userprofil-service
-mvn spring-boot:run
-```
-
-## Lancement de l'application
-
-A la racine du projet, une fois tous les services démarrés :
-
-```
-mvn spring-boot:run
-```
-
-## Utilisation de l'application
-
-Le projet lancé, il faut maintenant aller à l'adresse (dans votre navigateur internet):
-
-```
-localhost:8080/userlogin
-```
-
-Vous arriverez sur la page d'authentification.
 
