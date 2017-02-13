@@ -3,7 +3,7 @@ Le but de ce projet est de réaliser un petit réseau social dans une entreprise
 
 # Technologies utilisées
 ```
-Back-end: SpringFramework, Maven
+Back-end: Rest service designed by SpringFramework, Maven
 ```
 
 ```
