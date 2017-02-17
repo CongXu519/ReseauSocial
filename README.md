@@ -10,6 +10,6 @@ Back-end: Rest service designed by SpringFramework, Maven
 Front-end: Html, CSS, JS, Thymeleaf
 ```
 # Demo
-A créer
+In the folder Demo
 
 
